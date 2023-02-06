@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="RPS.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Rock, Paper and Scissors</h1>  
+ <div class="header"><h1>Rock, Paper and Scissors</h1></div>  
+ 
+ <div class="introduction">
+  <img src="Dr.Oh.jpg" class="dr-oh">
+<div>Choose your weapon.You will play this game 5 times with this PC. Who gets 5 points first will be a winner!</div>
+ </div>
+ <div class="live-score"></div>
+ <div class="final-result"><p>The winner is gonna be...<span class="final-result"></span></p> 
+ </div>
+ <div class="selection" id="selection">
+  <div class="rock" id="rock"><img src="rock.jpg"></div>
+  <div class="paper" id="paper"><img src="paper.jpg"></div>
+  <div class="scissors" id="scissors"><img src="scissors.jpg"></div>
+ </div>
+ <div class="result"></div>
+ <script src="RPS.js"></script>
 </body>
 </html>
