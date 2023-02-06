@@ -1,0 +1,82 @@
+.header{
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.header > h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.dr-oh{
+    width: 350px;
+    border-radius: 30px;
+}
+
+.introduction{
+    display: flex;
+    justify-content: flex-around;
+    gap: 20px;
+    background-color: lightgrey;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+.introduction > div{
+ font-size: 45px;
+ border: 1px solid;
+ border-radius: 20px;
+ margin: auto 0;
+ padding: 10px;
+ background-color: white;
+}
+
+.selection{
+    display:flex;
+    justify-content: center;
+    gap: 250px;
+    margin: 5px 0;
+    background-color: grey;
+    padding: 80px;
+    
+}
+.live-score{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.selection > div > img {
+    width: 200px;
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.selection > div{
+   background-color: white;
+   border-radius: 10px;
+}
+
+.round-div{
+    background-color: lightgrey;
+    padding: 80px 30px;
+    margin-top: 0px;
+}
+
+.result{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 50px 30px;
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.final-result{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
