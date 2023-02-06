@@ -140,14 +140,14 @@ function game(playerScore, computerScore){
         const span = document.createElement('span');
         span.className = "final-result"
         span.style.color = "red";
-        span.innerText = `You! You've got ${playerScore} points while computer only got ${computerScore} points.`
+        span.innerText = `You! You've got ${playerScore} points while computer's only got ${computerScore} points.`
         finalResult.appendChild(span);
     }else if (computerScore === 5){
         
         const span = document.createElement('span');
         span.className = "final-result"
         span.style.color = "blue";
-        span.innerText = `Computer! You've got only ${playerScore} points while computer got ${computerScore} points.`
+        span.innerText = `Computer! You've got only ${playerScore} points while computer's got ${computerScore} points.`
         finalResult.appendChild(span);
     }    
 
